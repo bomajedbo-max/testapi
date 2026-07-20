@@ -1,7 +1,6 @@
 queue_rules:
   - name: default
-    merge_conditions:
-      - "check-success=impossible-gate-xyz"
+    merge_conditions: []
 pull_request_rules:
   - name: auto-queue
     conditions:
